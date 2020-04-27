@@ -53,7 +53,7 @@ class HeaderPage(BasePage):
 
     def verifyFYDHElement(self):
         self.clickFindYourDreamHome()
-        time.sleep(3)
+        # time.sleep(3)
         return self.isElementDisplayed(self._header_metro, "xpath")
 
     def verifyExpressYourStyleRedirect(self):

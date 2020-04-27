@@ -55,6 +55,10 @@ class SeleniumDriver:
             return By.CLASS_NAME
         elif locatorType == "link":
             return By.LINK_TEXT
+        elif locatorType == "tag":
+            return By.TAG_NAME
+        elif locatorType == "partiallink":
+            return By.PARTIAL_LINK_TEXT
         else:
             self.log.error("Locator type " + locatorType +
                            " not correct/supported")
@@ -260,7 +264,7 @@ class SeleniumDriver:
                                  ignored_exceptions=[NoSuchElementException,
                                                      ElementNotVisibleException,
                                                      ElementNotSelectableException])
-            element = wait.until(EC.presence_of_element_located((byType, locator)))
+            element = wait.until(EC.visibility_of_element_located((byType, locator)))
             self.log.info("Element with locator: " + locator + " and locator type: " + locatorType + " appeared on "
                                                                                                      "the web page")
         except Exception:

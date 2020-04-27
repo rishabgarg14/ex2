@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="" />
+    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/header_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Verify that element exist under 'Find Your Dream Home' dropdown executed.1587823279488.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/teststatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/teststatus.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,20 +43,40 @@
       <option name="presentableId" value="Default" />
       <updated>1587834975981</updated>
     </task>
+    <task id="LOCAL-00001" summary="Entire Mattamy Project">
+      <created>1587883667103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587883667104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entire Mattamy Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entire Mattamy Project" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587899515970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587899515970" />
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1587883662666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587883662666" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587836334502" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1587835272364">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1587898956960">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587835272364" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587836357822">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587898956960" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587883748747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587836357822" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587883748747" />
   </component>
 </project>

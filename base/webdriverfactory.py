@@ -35,25 +35,25 @@ class WebDriverFactory:
             'WebDriver Instance'
         """
         if self.browser == "ie":
-            iePath = "C:\\Users\\rgarg\\PycharmProjects\\Drivers\\IEDriverServer.exe"
+            iePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\IEDriverServer.exe"
             os.environ["webdriver.ie.driver"] = iePath
             driver = webdriver.Ie(iePath)
             self.log.info("Opening Internet Explorer")
 
         elif self.browser =="firefox":
-            ffPath = "C:\\Users\\rgarg\\PycharmProjects\\Drivers\\geckodriver.exe"
+            ffPath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\geckodriver.exe"
             os.environ["webdriver.firefox.driver"] = ffPath
             driver = webdriver.Firefox(ffPath)
             self.log.info("Opening Firefox")
 
         elif self.browser == "chrome":
-            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\Drivers\\chromedriver.exe"
+            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
             driver = webdriver.Chrome(chromePath)
             self.log.info("Opening Chrome")
 
         else:
-            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\Drivers\\chromedriver.exe"
+            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
             driver = webdriver.Chrome(chromePath)
             self.log.info("Opening Chrome")

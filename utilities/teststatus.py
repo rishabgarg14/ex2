@@ -8,6 +8,9 @@ Example:
     self.check_point.markFinal("Test name", result, ""Message")
 """
 import logging
+import time
+import allure
+from allure_commons.types import AttachmentType
 from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
 
@@ -22,6 +25,7 @@ class TestStatus(SeleniumDriver):
         # super(TestStatus, self).__init__(driver)
         super().__init__(driver)
         self.resultList = []
+        self.driver = driver
 
     def setResult(self, result, resultMessage):
         try:
@@ -33,13 +37,22 @@ class TestStatus(SeleniumDriver):
                     self.resultList.append("FAIL")
                     self.log.info(" ### Verification FAIL :: " + resultMessage)
                     self.screenShot(resultMessage)
+                    allure.attach(self.driver.get_screenshot_as_png(),
+                                  name=resultMessage + "." + str(round(time.time() * 1000)),
+                                  attachment_type=AttachmentType.PNG)
             else:
                 self.resultList.append("FAIL")
                 self.screenShot(resultMessage)
+                allure.attach(self.driver.get_screenshot_as_png(),
+                              name=resultMessage + "." + str(round(time.time() * 1000)),
+                              attachment_type=AttachmentType.PNG)
                 self.log.error(" ### Verification FAIL :: " + resultMessage)
         except:
             self.resultList.append("FAIL")
             self.screenShot(resultMessage)
+            allure.attach(self.driver.get_screenshot_as_png(),
+                          name=resultMessage + "." + str(round(time.time() * 1000)),
+                          attachment_type=AttachmentType.PNG)
             self.log.error(" ### Exception Occurred !!! ")
 
     def mark(self, result, resultMessage):
