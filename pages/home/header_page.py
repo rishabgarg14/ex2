@@ -1,12 +1,13 @@
 import time
-
-from utilities.custom_logger import customLogger
+import utilities.custom_logger as cl
 import logging
 from base.basepage import BasePage
 from base.webdriverfactory import WebDriverFactory
 
 
 class HeaderPage(BasePage):
+
+    log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -26,26 +27,33 @@ class HeaderPage(BasePage):
 
     def clickLogo(self):
         self.elementClick(self._logo, "xpath")
+        self.log.info("Clicked logo in the header")
 
     def clickFindYourDreamHome(self):
         self.elementClick(self._find_your_dream_home, "xpath")
+        self.log.info("Clicked 'Find Your Dream Home' in the header")
 
     def clickExpressYourStyle(self):
         self.elementClick(self._express_your_style, "xpath")
+        self.log.info("Clicked 'Express Your Style' in the header")
 
     def clickMakeItReal(self):
         self.elementClick(self._make_it_real, "xpath")
+        self.log.info("Clicked 'Make It Real' in the header")
 
     def clickExperienceMattamy(self):
         self.elementClick(self._experience_mattamy, "xpath")
+        self.log.info("Clicked 'Experience Mattamy' in the header")
 
     def clickCountrySelector(self):
         self.elementClick(self._country_selector,"xpath")
+        self.log.info("Clicked country selector in the header")
 
     def verifyLogoRedirect(self):
         self.clickLogo()
         attribute = self.getAttribute(locator=self._logo, locatorType="xpath", attribute="href")
         urlAlias = attribute.partition(".com")[2]
+        self.log.info("URL alias is "+urlAlias)
         return self.verifyText(urlAlias, "/")
 
     def verifyFYDHExist(self):
@@ -53,26 +61,21 @@ class HeaderPage(BasePage):
 
     def verifyFYDHElement(self):
         self.clickFindYourDreamHome()
-        # time.sleep(3)
         return self.isElementDisplayed(self._header_metro, "xpath")
 
     def verifyExpressYourStyleRedirect(self):
         self.clickExpressYourStyle()
-        url = self.getUrl()
-        urlAlias = url.split(".com")[1]
-        print("Alias is "+urlAlias)
+        urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/express-your-style")
 
     def verifyMakeItRealRedirect(self):
         self.clickMakeItReal()
-        url = self.getUrl()
-        urlAlias = url.split(".com")[1]
+        urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/make-it-real")
 
     def verifyExperienceMattamyRedirect(self):
         self.clickExperienceMattamy()
-        url = self.getUrl()
-        urlAlias = url.split(".com")[1]
+        urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/experience-mattamy")
 
     def verifyToggleClick(self):

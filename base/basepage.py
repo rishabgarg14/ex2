@@ -64,3 +64,8 @@ class BasePage(SeleniumDriver):
             self.log.error("Failed to find text")
             print_stack()
             return False
+
+    def findUrlAlias(self):
+        url = self.getUrl()
+        urlAlias = url.split(".com")[1]
+        return urlAlias
