@@ -10,6 +10,7 @@ This should not be used by creating object instances
 Example:
     Class loginPage(BasePage)
 """
+import requests
 from base.selenium_driver import SeleniumDriver
 from traceback import print_stack
 from utilities.util import Util
@@ -69,3 +70,22 @@ class BasePage(SeleniumDriver):
         url = self.getUrl()
         urlAlias = url.split(".com")[1]
         return urlAlias
+
+    def verifyURLStatus(self, locator="", locatorType="id", element=None):
+        try:
+            if locator:
+                url = self.getAttribute(locator, locatorType, "href")
+            else:
+                url = self.getAttribute(attribute="href", element=element)
+            print("This is url: "+url)
+            r = requests.head(url)
+            status = r.status_code
+            if status == 200:
+                self.log.error("URL: " + url + " status code is: " + str(status))
+                return True
+            else:
+                self.log.info("URL: " + url + " status code is: " + str(status))
+                return False
+        except:
+            self.log.error("Unable to verify URL status")
+            return False

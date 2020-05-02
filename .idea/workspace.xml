@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_regression_suite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/footer_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/basepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/footer_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/footer_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/header_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Verify that element exist under 'Find Your Dream Home' dropdown executed.1587823279488.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/teststatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/teststatus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/courses/register_courses_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/register_courses_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/home/header_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/header_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/home/oos_login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/oos_login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/teststatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/casestatus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,12 +39,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests" />
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\home" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,33 +71,48 @@
       <option name="project" value="LOCAL" />
       <updated>1587883667104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Entire Mattamy Project">
+      <created>1588006949776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588006949776</updated>
+    </task>
+    <task id="LOCAL-00003" summary="findUrlAlias in Basepage">
+      <created>1588067100574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588067100574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entire Mattamy Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entire Mattamy Project" />
+    <MESSAGE value="findUrlAlias in Basepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="findUrlAlias in Basepage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587899515970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587899515970" />
-    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1587883662666">
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1588067099295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587883662666" />
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588067099295" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587836334502" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1587898956960">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1588398719654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587898956960" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587883748747">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588398719654" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588067136553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587883748747" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588067136553" />
   </component>
 </project>

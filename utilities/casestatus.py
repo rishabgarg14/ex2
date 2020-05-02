@@ -15,14 +15,13 @@ from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
 
 
-class TestStatus(SeleniumDriver):
+class CaseStatus(SeleniumDriver):
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
         """
         Inits Checkpoint class
         """
-        # super(TestStatus, self).__init__(driver)
         super().__init__(driver)
         self.resultList = []
         self.driver = driver

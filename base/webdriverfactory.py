@@ -1,5 +1,9 @@
 import logging
 import os
+
+from selenium.webdriver import DesiredCapabilities
+from selenium.webdriver.chrome.options import Options
+
 import utilities.custom_logger as cl
 from selenium import webdriver
 
@@ -34,16 +38,18 @@ class WebDriverFactory:
         Returns:
             'WebDriver Instance'
         """
-        if self.browser == "ie":
-            iePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\IEDriverServer.exe"
-            os.environ["webdriver.ie.driver"] = iePath
-            driver = webdriver.Ie(iePath)
-            self.log.info("Opening Internet Explorer")
+        if self.browser == "edge":
+            edgePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\msedgedriver.exe"
+            os.environ["webdriver.edge.driver"] = edgePath
+            driver = webdriver.Edge(edgePath)
+            self.log.info("Opening Edge Browser")
 
-        elif self.browser =="firefox":
+        elif self.browser == "ff":
+            cap = DesiredCapabilities().FIREFOX.copy()
+            cap["marionette"] = False
             ffPath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\geckodriver.exe"
             os.environ["webdriver.firefox.driver"] = ffPath
-            driver = webdriver.Firefox(ffPath)
+            driver = webdriver.Firefox(capabilities=cap, executable_path=ffPath)
             self.log.info("Opening Firefox")
 
         elif self.browser == "chrome":
@@ -52,10 +58,23 @@ class WebDriverFactory:
             driver = webdriver.Chrome(chromePath)
             self.log.info("Opening Chrome")
 
+        elif self.browser == "headlesschrome":
+            opts = Options()
+            # opts.add_argument("user-agent=MMozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            #                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36")
+            opts.add_argument("--headless")
+            opts.add_argument("start-maximized")
+            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
+            os.environ["webdriver.chrome.driver"] = chromePath
+            driver = webdriver.Chrome(options=opts, executable_path=chromePath)
+            agent = driver.execute_script("return navigator.userAgent")
+            print("User Agent is: " + agent)
+            self.log.info("Opening Headless Chrome")
+
         else:
             chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
-            driver = webdriver.Chrome(chromePath)
+            driver = webdriver.Chrome(executable_path=chromePath)
             self.log.info("Opening Chrome")
 
         # Setting browser implicit timeout for an element

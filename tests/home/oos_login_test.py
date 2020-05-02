@@ -3,7 +3,7 @@ import unittest
 from selenium import webdriver
 from pages.home.oos_login_page import LoginPage
 import pytest
-from utilities.teststatus import TestStatus
+from utilities.casestatus import TestStatus
 
 
 @pytest.mark.usefixtures("setUp", "oneTimeSetUp")

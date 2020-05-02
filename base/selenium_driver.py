@@ -1,3 +1,5 @@
+import traceback
+
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
@@ -183,11 +185,11 @@ class SeleniumDriver:
                 text = attributeValue.strip()
             else:
                 self.log.error("Failed to get attribute on element " + info)
-                print_stack()
+                # print_stack()
                 attributeValue = None
         except:
             self.log.error("Failed to get attribute on element " + info)
-            print_stack()
+            # print_stack()
             attributeValue = None
         return attributeValue
 
@@ -267,26 +269,29 @@ class SeleniumDriver:
             element = wait.until(EC.visibility_of_element_located((byType, locator)))
             self.log.info("Element with locator: " + locator + " and locator type: " + locatorType + " appeared on "
                                                                                                      "the web page")
-        except Exception:
-            self.log.error(
-                "Element with locator: " + locator + " and locator type: " + locatorType + " not appeared on "
-                                                                                           "the web page")
-            # print_stack()
+        except Exception as e:
+            print(e)
+            self.log.error("Element with locator: " + locator + " and locator type: " + locatorType +
+                           " not appeared on the web page")
+            # traceback.print_stack()
         return element
 
-    def webScroll(self, direction="up"):
+    def webScroll(self, direction="up", element=None):
         """
         NEW METHOD
         """
-        if direction == "up":
-            # Scroll Up
-            self.driver.execute_script("window.scrollBy(0, -1000);")
-            self.log.info("Page scrolled up")
+        if element is None:
+            if direction == "up":
+                # Scroll Up
+                self.driver.execute_script("window.scrollBy(0, -1000);")
+                self.log.info("Page scrolled up")
 
-        elif direction == "down":
-            # Scroll Down
-            self.driver.execute_script("window.scrollBy(0, 700);")
-            self.log.info("Page scrolled down")
+            elif direction == "down":
+                # Scroll Down
+                self.driver.execute_script("window.scrollBy(0, 1000);")
+                self.log.info("Page scrolled down")
 
+            else:
+                self.log.error("Incorrect scrolling direction entered")
         else:
-            self.log.error("Incorrect scrolling direction entered")
+            element.location_once_scrolled_into_view

@@ -12,8 +12,6 @@ class HeaderPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-        # self.urlList =[]
-        # self.elementList = []
 
     # Locators
     _logo = "//a[starts-with(@class,'w-32')]"
