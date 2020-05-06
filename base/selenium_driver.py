@@ -173,16 +173,14 @@ class SeleniumDriver:
         """
         try:
             if locator:  # This means if locator is not empty
-                self.log.debug("In locator condition")
                 element = self.getElement(locator, locatorType)
             self.log.debug("Before finding attribute")
             attributeValue = element.get_attribute(attribute)
-            print("Value of attribute is : " + attributeValue)
             self.log.debug("After finding element, size is: " + str(len(attributeValue)))
             if len(attributeValue) != 0:
                 self.log.info("Getting attribute value on element :: " + info)
-                self.log.info("The attribute is :: '" + attributeValue + "'")
                 text = attributeValue.strip()
+                self.log.info("The attribute is :: '" + text + "'")
             else:
                 self.log.error("Failed to get attribute on element " + info)
                 # print_stack()

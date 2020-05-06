@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_regression_suite.py" afterDir="false" />
+    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="Footer Social Icon Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/footer_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/basepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/footer_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/footer_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/header_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/courses/register_courses_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/register_courses_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/home/header_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/header_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/home/oos_login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/oos_login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/teststatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/casestatus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/home/footer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/footer_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,23 +77,35 @@
       <option name="project" value="LOCAL" />
       <updated>1588067100574</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Footer Social Icon Tests">
+      <created>1588428473116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428473116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entire Mattamy Project" />
     <MESSAGE value="findUrlAlias in Basepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="findUrlAlias in Basepage" />
+    <MESSAGE value="Footer Social Icon Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer Social Icon Tests" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588653642916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588653642916" />
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587899515970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587899515970" />
-    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1588067099295">
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1588428470947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588067099295" />
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588428470947" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,9 +114,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588398719654" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588067136553">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588428484937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588067136553" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588428484937" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588653667882">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588653667882" />
   </component>
 </project>

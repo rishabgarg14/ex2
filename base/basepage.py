@@ -71,20 +71,22 @@ class BasePage(SeleniumDriver):
         urlAlias = url.split(".com")[1]
         return urlAlias
 
-    def verifyURLStatus(self, locator="", locatorType="id", element=None):
+    def verifyURLStatus(self, locator="", locatorType="id", element=None, url=""):
         try:
             if locator:
-                url = self.getAttribute(locator, locatorType, "href")
+                address = self.getAttribute(locator, locatorType, "href")
+            elif element:
+                address = self.getAttribute(attribute="href", element=element)
             else:
-                url = self.getAttribute(attribute="href", element=element)
-            print("This is url: "+url)
-            r = requests.head(url)
+                address = url
+            self.log.info("URL is: "+address)
+            r = requests.head(address)
             status = r.status_code
             if status == 200:
-                self.log.error("URL: " + url + " status code is: " + str(status))
+                self.log.info("URL: " + address + " status code is: " + str(status))
                 return True
             else:
-                self.log.info("URL: " + url + " status code is: " + str(status))
+                self.log.error("URL: " + address + " status code is: " + str(status))
                 return False
         except:
             self.log.error("Unable to verify URL status")

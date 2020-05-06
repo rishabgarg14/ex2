@@ -1,9 +1,8 @@
 import logging
 import os
-
 from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.common.keys import Keys
 import utilities.custom_logger as cl
 from selenium import webdriver
 
@@ -48,7 +47,7 @@ class WebDriverFactory:
             cap = DesiredCapabilities().FIREFOX.copy()
             cap["marionette"] = False
             ffPath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\geckodriver.exe"
-            os.environ["webdriver.firefox.driver"] = ffPath
+            # os.environ["webdriver.firefox.driver"] = ffPath
             driver = webdriver.Firefox(capabilities=cap, executable_path=ffPath)
             self.log.info("Opening Firefox")
 
