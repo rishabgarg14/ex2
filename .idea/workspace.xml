@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="Footer Social Icon Tests">
+    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/footer_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/footer_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/home/footer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/footer_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VjmgEEoqgAkv0Oy57qRulCaEDj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\reportpublish" />
       <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests" />
       <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\home" />
     </key>
@@ -84,14 +83,22 @@
       <option name="project" value="LOCAL" />
       <updated>1588428473116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added url parameter to verify url">
+      <created>1588776261639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588776261639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entire Mattamy Project" />
     <MESSAGE value="findUrlAlias in Basepage" />
     <MESSAGE value="Footer Social Icon Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer Social Icon Tests" />
+    <MESSAGE value="Added url parameter to verify url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added url parameter to verify url" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588653642916">
@@ -102,10 +109,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587899515970" />
-    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1588428470947">
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589254475124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588428470947" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1589254475124" />
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1588776260260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588776260260" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -114,10 +125,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588398719654" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588428484937">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588776274286">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588428484937" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588776274286" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588653667882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

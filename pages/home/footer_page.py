@@ -40,7 +40,11 @@ class FooterPage(BasePage):
         return self.verifyURLStatus(locator=self._facebook_social_icon, locatorType="xpath")
 
     def getInstagramIconStatus(self):
-        return self.verifyURLStatus(locator=self._insta_social_icon, locatorType="xpath")
+        self.elementClick(locator=self._insta_social_icon, locatorType="xpath")
+        url = self.getUrl()
+        result = self.verifyTextContains(url, "https://www.instagram.com/mattamyhomes/")
+        self.driver.back()
+        return result
 
     def getPinterestStatus(self):
         return self.verifyURLStatus(locator=self._pinterest_social_icon, locatorType="xpath")
