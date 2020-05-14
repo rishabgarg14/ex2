@@ -1,8 +1,9 @@
 import logging
 import os
 from selenium.webdriver import DesiredCapabilities
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options as co
+from selenium.webdriver.firefox.options import Options as fo
+# from shutil import which
 import utilities.custom_logger as cl
 from selenium import webdriver
 
@@ -44,11 +45,14 @@ class WebDriverFactory:
             self.log.info("Opening Edge Browser")
 
         elif self.browser == "ff":
-            cap = DesiredCapabilities().FIREFOX.copy()
-            cap["marionette"] = False
+            # FIREFOXPATH = which("firefox")
+            # self.log.info("Firefox path is "+str(FIREFOXPATH))
+            # options = fo()
+            # options.add_argument("-headless") options=options,
+            # options.binary = FIREFOXPATH
             ffPath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\geckodriver.exe"
-            # os.environ["webdriver.firefox.driver"] = ffPath
-            driver = webdriver.Firefox(capabilities=cap, executable_path=ffPath)
+            os.environ["webdriver.firefox.driver"] = ffPath
+            driver = webdriver.Firefox(executable_path=ffPath)
             self.log.info("Opening Firefox")
 
         elif self.browser == "chrome":
@@ -58,7 +62,7 @@ class WebDriverFactory:
             self.log.info("Opening Chrome")
 
         elif self.browser == "headlesschrome":
-            opts = Options()
+            opts = co()
             # opts.add_argument("user-agent=MMozilla/5.0 (Windows NT 10.0; Win64; x64) "
             #                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36")
             opts.add_argument("--headless")
