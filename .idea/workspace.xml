@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/header_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589258487775</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change in FF Webdriver webdriverfactory.py">
+      <created>1589468999238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589468999238</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,7 +113,8 @@
     <MESSAGE value="Footer Social Icon Tests" />
     <MESSAGE value="Added url parameter to verify url" />
     <MESSAGE value="Change in Instagram Test Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change in Instagram Test Case" />
+    <MESSAGE value="Change in FF Webdriver webdriverfactory.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in FF Webdriver webdriverfactory.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588653642916">
@@ -122,10 +129,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1589254475124" />
-    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1589258486226">
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1589468995649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589258486226" />
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589468995649" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,10 +141,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589454686271" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589258502915">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589469016859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589258502915" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589469016859" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589464813504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

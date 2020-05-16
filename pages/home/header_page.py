@@ -17,7 +17,7 @@ class HeaderPage(BasePage):
     _logo = "//a[starts-with(@class,'w-32')]"
     _find_your_dream_home = "(//button/p[text()='Find Your Dream Home'])[1]"
     _express_your_style = "(//a[starts-with(@href,'/express-your-style')])[1]"
-    _make_it_real = "(//a[starts-with(@href,'/make-it-real')])[1]"
+    _make_it_real = "(//a[contains(@href,'/make-it-real')])[1]"
     _experience_mattamy = "(//a[starts-with(@href,'/experience-mattamy')])[1]"
     _country_selector = "(//button[starts-with(@class,'border')])[1]"
     _usa_text = "(//button[text()='USA'])[1]"
@@ -68,6 +68,7 @@ class HeaderPage(BasePage):
 
     def verifyMakeItRealRedirect(self):
         self.clickMakeItReal()
+        time.sleep(2)
         urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/make-it-real")
 
