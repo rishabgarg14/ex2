@@ -70,9 +70,8 @@ class SeleniumDriver:
         element = None
         try:
             element = self.waitForElement(locator, locatorType)
-            self.log.info("getElement() | Element found with locator: " + locator + " and  locatorType: " + locatorType)
         except:
-            self.log.error("getElement() | Element not found with locator: " + locator +
+            self.log.error("Element not found with locator: " + locator +
                            " and  locatorType: " + locatorType)
         return element
 
@@ -116,12 +115,12 @@ class SeleniumDriver:
         try:
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
-            element.click()
+            self.driver.execute_script("arguments[0].click();", element)
             self.log.info("Clicked on element with locator: " + locator +
                           " locatorType: " + locatorType)
-        except:
+        except Exception as e:
             self.log.error("Cannot click on the element with locator: " + locator +
-                           " locatorType: " + locatorType)
+                           " locatorType: " + locatorType + str(e))
             # print_stack()
 
     def sendKeys(self, data, locator="", locatorType="id", element=None):

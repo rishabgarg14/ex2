@@ -14,7 +14,7 @@ class HeaderPage(BasePage):
         self.driver = driver
 
     # Locators
-    _logo = "//a[starts-with(@class,'w-32')]"
+    _logo = "(//a[starts-with(@class,'w-32')])[1]"
     _find_your_dream_home = "(//button/p[text()='Find Your Dream Home'])[1]"
     _express_your_style = "(//a[starts-with(@href,'/express-your-style')])[1]"
     _make_it_real = "(//a[contains(@href,'/make-it-real')])[1]"
@@ -24,28 +24,22 @@ class HeaderPage(BasePage):
     _header_metro = "(//h3[starts-with(@class,'uppercase')])[1]"
 
     def clickLogo(self):
-        self.elementClick(self._logo, "xpath")
-        self.log.info("Clicked logo in the header")
+        self.elementClick(locator=self._logo, locatorType="xpath")
 
     def clickFindYourDreamHome(self):
         self.elementClick(self._find_your_dream_home, "xpath")
-        self.log.info("Clicked 'Find Your Dream Home' in the header")
 
     def clickExpressYourStyle(self):
         self.elementClick(self._express_your_style, "xpath")
-        self.log.info("Clicked 'Express Your Style' in the header")
 
     def clickMakeItReal(self):
         self.elementClick(self._make_it_real, "xpath")
-        self.log.info("Clicked 'Make It Real' in the header")
 
     def clickExperienceMattamy(self):
         self.elementClick(self._experience_mattamy, "xpath")
-        self.log.info("Clicked 'Experience Mattamy' in the header")
 
     def clickCountrySelector(self):
         self.elementClick(self._country_selector,"xpath")
-        self.log.info("Clicked country selector in the header")
 
     def verifyLogoRedirect(self):
         self.clickLogo()
@@ -68,7 +62,6 @@ class HeaderPage(BasePage):
 
     def verifyMakeItRealRedirect(self):
         self.clickMakeItReal()
-        time.sleep(2)
         urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/make-it-real")
 
