@@ -7,8 +7,8 @@ from selenium.webdriver.firefox.options import Options as fo
 import utilities.custom_logger as cl
 from selenium import webdriver
 
-class WebDriverFactory:
 
+class WebDriverFactory:
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, browser):
@@ -20,6 +20,10 @@ class WebDriverFactory:
         """
         self.browser = browser
         self.baseUrl = "http://devmh-admin.bhitest.com/"
+        currentDirectory = os.path.dirname(__file__)
+        driverDirectory = "../Drivers"
+        self.browserDirectory = os.path.join(currentDirectory, driverDirectory)
+        self.log.debug("Browser directory" + self.browserDirectory)
 
     """
     Set chrome driver and iexplorer environment based on os
@@ -39,7 +43,7 @@ class WebDriverFactory:
             'WebDriver Instance'
         """
         if self.browser == "edge":
-            edgePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\msedgedriver.exe"
+            edgePath = self.browserDirectory + "\\msedgedriver.exe"
             os.environ["webdriver.edge.driver"] = edgePath
             driver = webdriver.Edge(edgePath)
             self.log.info("Opening Edge Browser")
@@ -50,13 +54,13 @@ class WebDriverFactory:
             # options = fo()
             # options.add_argument("-headless") options=options,
             # options.binary = FIREFOXPATH
-            ffPath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\geckodriver.exe"
+            ffPath = self.browserDirectory + "\\geckodriver.exe"
             os.environ["webdriver.firefox.driver"] = ffPath
             driver = webdriver.Firefox(executable_path=ffPath)
             self.log.info("Opening Firefox")
 
         elif self.browser == "chrome":
-            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
+            chromePath = self.browserDirectory + "\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
             driver = webdriver.Chrome(chromePath)
             self.log.info("Opening Chrome")
@@ -67,7 +71,7 @@ class WebDriverFactory:
             #                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36")
             opts.add_argument("--headless")
             opts.add_argument("start-maximized")
-            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
+            chromePath = self.browserDirectory + "\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
             driver = webdriver.Chrome(options=opts, executable_path=chromePath)
             agent = driver.execute_script("return navigator.userAgent")
@@ -75,7 +79,7 @@ class WebDriverFactory:
             self.log.info("Opening Headless Chrome")
 
         else:
-            chromePath = "C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\Drivers\\chromedriver.exe"
+            chromePath = self.browserDirectory + "\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
             driver = webdriver.Chrome(executable_path=chromePath)
             self.log.info("Opening Chrome")
@@ -85,7 +89,7 @@ class WebDriverFactory:
         # Maximize the window
         driver.maximize_window()
         self.log.info("Maximizing browser window")
-        #Loading browser with desired URL
+        # Loading browser with desired URL
         driver.get(self.baseUrl)
-        self.log.info("Opened Url "+self.baseUrl)
+        self.log.info("Opened Url " + self.baseUrl)
         return driver
