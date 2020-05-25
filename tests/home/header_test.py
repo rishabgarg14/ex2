@@ -1,7 +1,6 @@
 import os
 import time
 import unittest
-from selenium import webdriver
 from pages.home.header_page import HeaderPage
 import pytest
 from utilities.casestatus import CaseStatus
@@ -15,6 +14,7 @@ class HeaderTests(unittest.TestCase):
         self.hp = HeaderPage(self.driver)
         self.ts = CaseStatus(self.driver)
 
+    @pytest.mark.run(order=1)
     def test_logoRedirect(self):
         result = self.hp.verifyLogoRedirect()
         self.ts.markFinal("test_logoRedirect", result, "logo redirection test case executed")

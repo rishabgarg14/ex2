@@ -4,10 +4,9 @@ import os
 
 
 def customLogger(loglevel=logging.DEBUG):
-
     loggerName = inspect.stack()[1][3]
     logger = logging.getLogger(loggerName)
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(loglevel)
 
     currentDirectory = os.path.dirname(__file__)
     logPath = "../automation.log"

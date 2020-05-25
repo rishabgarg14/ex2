@@ -11,7 +11,7 @@ from selenium import webdriver
 class WebDriverFactory:
     log = cl.customLogger(logging.DEBUG)
 
-    def __init__(self, browser):
+    def __init__(self, browser, url):
         """
         Initiates WebDriverFactory class
 
@@ -19,7 +19,7 @@ class WebDriverFactory:
             none
         """
         self.browser = browser
-        self.baseUrl = "http://devmh-admin.bhitest.com/"
+        self.baseUrl = url
         currentDirectory = os.path.dirname(__file__)
         driverDirectory = "../Drivers"
         self.browserDirectory = os.path.join(currentDirectory, driverDirectory)
@@ -27,10 +27,6 @@ class WebDriverFactory:
 
     """
     Set chrome driver and iexplorer environment based on os
-    
-    chromedriver = "C:/..../chromedriver.exe"
-    os.environ["webdriver.chrome.driver"] = chromedriver
-    self.driver = webdriver.Chrome(chromedriver)
     
     PREFERRED: Set the path on the machine where browser will be executed.
     """
@@ -71,6 +67,7 @@ class WebDriverFactory:
             #                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36")
             opts.add_argument("--headless")
             opts.add_argument("start-maximized")
+            opts.add_argument('disable-infobars')
             chromePath = self.browserDirectory + "\\chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromePath
             driver = webdriver.Chrome(options=opts, executable_path=chromePath)

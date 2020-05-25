@@ -4,7 +4,12 @@
     <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/home/header_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/header_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_regression_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_regression_suite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/custom_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/custom_logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/rw_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +41,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\Data" />
       <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\reportpublish" />
       <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests" />
       <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\home" />
@@ -119,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589606380419</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changes abs to relative path&gt;driver and log">
+      <created>1589608849095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589608849095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,13 +145,14 @@
     <MESSAGE value="Change in FF Webdriver webdriverfactory.py" />
     <MESSAGE value="Change in header_page.py" />
     <MESSAGE value="element click in selenium_driver.py.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="element click in selenium_driver.py.py" />
+    <MESSAGE value="changes abs to relative path&gt;driver and log" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes abs to relative path&gt;driver and log" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588653642916">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590315448261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588653642916" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590315448261" />
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587899515970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -146,22 +161,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1589254475124" />
-    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1589606378691">
+    <state x="430" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590384446071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589606378691" />
+    <state x="430" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1590384446071" />
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1589608847282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589608847282" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587836334502" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1589454686271">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1590232631997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589454686271" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589606390455">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590232631997" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589608860877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589606390455" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589608860877" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589464813504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
