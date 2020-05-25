@@ -2,7 +2,6 @@ import unittest
 from tests.home.header_test import HeaderTests
 from tests.home.footer_test import FooterTests
 from tests.sitemap.sitemap_test import SitemapTests
-from pages.home.header_page import HeaderPage
 
 ts1 = unittest.TestLoader().loadTestsFromTestCase(HeaderTests)
 ts2 = unittest.TestLoader().loadTestsFromTestCase(FooterTests)

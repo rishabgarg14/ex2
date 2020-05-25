@@ -23,7 +23,6 @@ class WebDriverFactory:
         currentDirectory = os.path.dirname(__file__)
         driverDirectory = "../Drivers"
         self.browserDirectory = os.path.join(currentDirectory, driverDirectory)
-        self.log.debug("Browser directory" + self.browserDirectory)
 
     """
     Set chrome driver and iexplorer environment based on os

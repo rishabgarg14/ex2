@@ -23,7 +23,6 @@ class SitemapPage(BasePage):
                 self.read.write_excel(sheetToWrite=resultSheetName, row=row, column=1, cellValue=row)
                 self.read.write_excel(sheetToWrite=resultSheetName, row=row, column=2, cellValue=url)
                 self.read.write_excel(sheetToWrite=resultSheetName, row=row, column=3, cellValue=status)
-                print(row, url, status)
         rows = self.read.count_excelRows(resultSheetName)
         columns = self.read.count_excelColumns(resultSheetName)
         if rows == 1 and columns == 1:

@@ -40,7 +40,7 @@ class ReadWriteFile:
 
             soup = BeautifulSoup(xmlContent, "html.parser")
             sitemapTags = soup.find_all(rootTag)
-            print("The number of {1} tags are {0}".format(len(sitemapTags), rootTag))
+            self.log.info("The number of {1} tags are {0}".format(len(sitemapTags), rootTag))
 
             i = 1
             for sitemap in sitemapTags:
