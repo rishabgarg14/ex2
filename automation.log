@@ -1,0 +1,82 @@
+05/25/20 12:29:11 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 12:29:15 - WebDriverFactory - INFO - Opening Headless Chrome
+05/25/20 12:29:17 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 12:29:26 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 12:29:26 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 12:29:26 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 12:29:26 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 12:29:26 - <module> - INFO - Clicked USA as country
+05/25/20 12:29:26 - <module> - INFO - Clicked USA as country
+05/25/20 12:29:26 - <module> - INFO - Deleted sheet: SitemapResult
+05/25/20 12:29:26 - <module> - INFO - Deleted sheet: SitemapResult
+05/25/20 12:29:26 - <module> - INFO - Created sheet SitemapResult
+05/25/20 12:29:26 - <module> - INFO - Created sheet SitemapResult
+05/25/20 12:29:27 - <module> - INFO - ##Successfully Traversed File##
+05/25/20 12:29:27 - <module> - INFO - ##Successfully Traversed File##
+05/25/20 12:29:35 - CaseStatus - INFO -  ### Verification Pass :: Verified all Sitemap Links
+05/25/20 12:29:35 - CaseStatus - INFO - test_sitemap_url Test Passed
+05/25/20 12:29:35 - <module> - INFO - Closing Browser
+05/25/20 12:29:35 - <module> - INFO - Closing Browser
+05/25/20 12:29:37 - <module> - INFO - Browser Closed
+05/25/20 12:29:37 - <module> - INFO - Browser Closed
+05/25/20 12:45:31 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 12:45:34 - WebDriverFactory - INFO - Opening Headless Chrome
+05/25/20 12:45:36 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 12:45:44 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 12:45:44 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 12:45:45 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 12:45:45 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 12:45:45 - <module> - INFO - Clicked USA as country
+05/25/20 12:45:45 - ReadWriteFile - INFO - Deleted sheet: SitemapResult
+05/25/20 12:45:45 - ReadWriteFile - INFO - Created sheet SitemapResult
+05/25/20 12:45:47 - ReadWriteFile - INFO - ##Successfully Traversed File##
+05/25/20 12:45:54 - CaseStatus - INFO -  ### Verification Pass :: Verified all Sitemap Links
+05/25/20 12:45:54 - CaseStatus - INFO - test_sitemap_url Test Passed
+05/25/20 12:45:54 - <module> - INFO - Closing Browser
+05/25/20 12:45:56 - <module> - INFO - Browser Closed
+05/25/20 12:47:14 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 12:47:18 - WebDriverFactory - INFO - Opening Headless Chrome
+05/25/20 12:47:20 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 12:47:28 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 12:47:28 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 12:47:28 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 12:47:28 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 12:47:28 - <module> - INFO - Clicked USA as country
+05/25/20 12:47:28 - ReadWriteFile - INFO - Deleted sheet: SitemapResult
+05/25/20 12:47:28 - ReadWriteFile - INFO - Created sheet SitemapResult
+05/25/20 12:47:30 - ReadWriteFile - INFO - ##Successfully Traversed File##
+05/25/20 12:47:37 - CaseStatus - INFO -  ### Verification Pass :: Verified all Sitemap Links
+05/25/20 12:47:37 - CaseStatus - INFO - test_sitemap_url Test Passed
+05/25/20 12:47:37 - <module> - INFO - Closing Browser
+05/25/20 12:47:40 - <module> - INFO - Browser Closed
+05/25/20 12:48:06 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 12:48:09 - WebDriverFactory - INFO - Opening Headless Chrome
+05/25/20 12:48:11 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 12:48:17 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 12:48:17 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 12:48:17 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 12:48:17 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 12:48:17 - <module> - INFO - Clicked USA as country
+05/25/20 12:48:17 - ReadWriteFile - INFO - Deleted sheet: SitemapResult
+05/25/20 12:48:17 - ReadWriteFile - INFO - Created sheet SitemapResult
+05/25/20 12:48:18 - ReadWriteFile - INFO - ##Successfully Traversed File##
+05/25/20 12:48:19 - CaseStatus - INFO -  ### Verification FAIL :: Verified all Sitemap Links
+05/25/20 12:48:20 - CaseStatus - INFO - Screenshot save to directory: C:\Users\rgarg\PycharmProjects\MattamyHomes\base\../screenshots/Verified all Sitemap Links.1590391099823.png
+05/25/20 12:48:21 - CaseStatus - ERROR - test_sitemap_url Test Failed
+05/25/20 12:48:21 - <module> - INFO - Closing Browser
+05/25/20 12:48:23 - <module> - INFO - Browser Closed
+05/25/20 12:48:39 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 12:48:42 - WebDriverFactory - INFO - Opening Headless Chrome
+05/25/20 12:48:45 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 12:48:50 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 12:48:50 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 12:48:51 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 12:48:51 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 12:48:51 - <module> - INFO - Clicked USA as country
+05/25/20 12:48:51 - ReadWriteFile - INFO - Deleted sheet: SitemapResult
+05/25/20 12:48:51 - ReadWriteFile - INFO - Created sheet SitemapResult
+05/25/20 12:48:52 - ReadWriteFile - INFO - ##Successfully Traversed File##
+05/25/20 12:49:00 - CaseStatus - INFO -  ### Verification Pass :: Verified all Sitemap Links
+05/25/20 12:49:00 - CaseStatus - INFO - test_sitemap_url Test Passed
+05/25/20 12:49:00 - <module> - INFO - Closing Browser
+05/25/20 12:49:02 - <module> - INFO - Browser Closed
