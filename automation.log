@@ -80,3 +80,513 @@
 05/25/20 12:49:00 - CaseStatus - INFO - test_sitemap_url Test Passed
 05/25/20 12:49:00 - <module> - INFO - Closing Browser
 05/25/20 12:49:02 - <module> - INFO - Browser Closed
+05/25/20 04:28:08 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 04:28:13 - WebDriverFactory - INFO - Opening Chrome
+05/25/20 04:28:15 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 04:29:17 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 04:29:17 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:29:30 - SeleniumDriver - ERROR - Element with locator: (//button[text()='USA'])[3] and locator type: xpath not appeared on the web page
+05/25/20 04:29:30 - SeleniumDriver - ERROR - Cannot click on the element with locator: (//button[text()='USA'])[3] locatorType: xpathMessage: javascript error: Cannot read property 'click' of null
+  (Session info: chrome=81.0.4044.138)
+
+05/25/20 04:29:30 - <module> - INFO - Clicked USA as country
+05/25/20 04:29:30 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:29:43 - HeaderPage - ERROR - Element with locator: (//a[starts-with(@class,'w-32')])[1] and locator type: xpath not appeared on the web page
+05/25/20 04:29:43 - HeaderPage - ERROR - Cannot click on the element with locator: (//a[starts-with(@class,'w-32')])[1] locatorType: xpathMessage: javascript error: Cannot read property 'click' of null
+  (Session info: chrome=81.0.4044.138)
+
+05/25/20 04:29:43 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:29:55 - HeaderPage - ERROR - Element with locator: (//a[starts-with(@class,'w-32')])[1] and locator type: xpath not appeared on the web page
+05/25/20 04:29:55 - HeaderPage - DEBUG - Before finding attribute
+05/25/20 04:29:55 - HeaderPage - ERROR - Failed to get attribute on element 
+05/25/20 04:29:55 - <module> - INFO - Closing Browser
+05/25/20 04:29:57 - <module> - INFO - Browser Closed
+05/25/20 04:29:57 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 04:30:06 - WebDriverFactory - INFO - Opening Chrome
+05/25/20 04:30:08 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 04:30:19 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 04:30:19 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:19 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 04:30:20 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 04:30:20 - <module> - INFO - Clicked USA as country
+05/25/20 04:30:20 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:20 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:20 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:20 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:20 - FooterPage - INFO - Element with locator: Accessibility and locator type: link appeared on the web page
+05/25/20 04:30:20 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:20 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:20 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:20 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:20 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:22 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:22 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Accessibility Link
+05/25/20 04:30:22 - CaseStatus - INFO - test_accessibilityLink Test Passed
+05/25/20 04:30:22 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:22 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:22 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:22 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:22 - FooterPage - INFO - Element with locator: Careers and locator type: link appeared on the web page
+05/25/20 04:30:22 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:22 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:22 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:22 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:22 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:23 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:23 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Careers Link
+05/25/20 04:30:23 - CaseStatus - INFO - test_careersLink Test Passed
+05/25/20 04:30:23 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:23 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:23 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:23 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:23 - FooterPage - INFO - Element with locator: Contact Us and locator type: link appeared on the web page
+05/25/20 04:30:23 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:23 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:23 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:23 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:23 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:24 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:24 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Contact Us Link
+05/25/20 04:30:24 - CaseStatus - INFO - test_contactUsLink Test Passed
+05/25/20 04:30:24 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:24 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:24 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:24 - FooterPage - INFO - Element list found with locator: //*[contains(text(),'©2')]/../span and  locatorType: xpath
+05/25/20 04:30:24 - FooterPage - INFO - Entire Copyright Text is present
+05/25/20 04:30:24 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Copyright text
+05/25/20 04:30:24 - CaseStatus - INFO - test_copyrightText Test Passed
+05/25/20 04:30:24 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:25 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:25 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:25 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:25 - FooterPage - INFO - Element with locator: Email Signup and locator type: link appeared on the web page
+05/25/20 04:30:25 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:25 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:25 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:25 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:25 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:26 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:26 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Homeowners Link
+05/25/20 04:30:26 - CaseStatus - INFO - test_emailSignupLink Test Passed
+05/25/20 04:30:26 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:26 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:26 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:26 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:26 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:26 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:26 - FooterPage - DEBUG - After finding element, size is: 37
+05/25/20 04:30:26 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:26 - FooterPage - INFO - The attribute is :: 'https://www.facebook.com/MattamyHomes'
+05/25/20 04:30:26 - FooterPage - INFO - URL is: https://www.facebook.com/MattamyHomes
+05/25/20 04:30:28 - FooterPage - INFO - URL: https://www.facebook.com/MattamyHomes status code is: 200
+05/25/20 04:30:28 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Facebook Social Icon
+05/25/20 04:30:28 - CaseStatus - INFO - test_facebookSocialIcon Test Passed
+05/25/20 04:30:28 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:29 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:29 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:29 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:30 - FooterPage - INFO - Element with locator: FAQ and locator type: link appeared on the web page
+05/25/20 04:30:30 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:30 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:30 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:30 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:30 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:31 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:31 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified FAQ Link
+05/25/20 04:30:31 - CaseStatus - INFO - test_faqLink Test Passed
+05/25/20 04:30:31 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:31 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:31 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:31 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:31 - FooterPage - INFO - Element with locator: For Media and locator type: link appeared on the web page
+05/25/20 04:30:31 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:31 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:31 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:31 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:31 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:32 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:32 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified For Media Link
+05/25/20 04:30:32 - CaseStatus - INFO - test_forMediaLink Test Passed
+05/25/20 04:30:32 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:32 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:32 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:32 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:32 - FooterPage - INFO - Element with locator: For Realtors and locator type: link appeared on the web page
+05/25/20 04:30:32 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:32 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:32 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:32 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:32 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:33 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:33 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified For Realtors Link
+05/25/20 04:30:33 - CaseStatus - INFO - test_forRealtorsLink Test Passed
+05/25/20 04:30:33 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:34 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:34 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:34 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:35 - FooterPage - INFO - Element with locator: Homeowners and locator type: link appeared on the web page
+05/25/20 04:30:35 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:35 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:35 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:35 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:35 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:35 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:35 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Homeowners Link
+05/25/20 04:30:35 - CaseStatus - INFO - test_homeownersLink Test Passed
+05/25/20 04:30:35 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:35 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:36 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:36 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:36 - FooterPage - INFO - Element with locator: //a[contains(@href,'instagram')] and locator type: xpath appeared on the web page
+05/25/20 04:30:40 - FooterPage - INFO - Clicked on element with locator: //a[contains(@href,'instagram')] locatorType: xpath
+05/25/20 04:30:40 - Util - INFO - Actual Text From Application Web UI --> :: https://www.instagram.com/mattamyhomes/
+05/25/20 04:30:40 - Util - INFO - Expected Text From Application Web UI --> :: https://www.instagram.com/mattamyhomes/
+05/25/20 04:30:40 - Util - INFO - ### VERIFICATION CONTAINS !!!
+05/25/20 04:30:44 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Instagram Social Icon
+05/25/20 04:30:44 - CaseStatus - INFO - test_instagramSocialIcon Test Passed
+05/25/20 04:30:44 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:45 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:45 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:45 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:45 - FooterPage - INFO - Element with locator: Investors and locator type: link appeared on the web page
+05/25/20 04:30:45 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:45 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:45 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:45 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:45 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:46 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:46 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Investors Link
+05/25/20 04:30:46 - CaseStatus - INFO - test_investorsLink Test Passed
+05/25/20 04:30:46 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:46 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:46 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:46 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:46 - FooterPage - INFO - Element with locator: //a[contains(@href,'linkedin')] and locator type: xpath appeared on the web page
+05/25/20 04:30:48 - FooterPage - INFO - Clicked on element with locator: //a[contains(@href,'linkedin')] locatorType: xpath
+05/25/20 04:30:49 - Util - INFO - Actual Text From Application Web UI --> :: https://www.linkedin.com/company/mattamy-homes
+05/25/20 04:30:49 - Util - INFO - Expected Text From Application Web UI --> :: https://www.linkedin.com/
+05/25/20 04:30:49 - Util - INFO - ### VERIFICATION CONTAINS !!!
+05/25/20 04:30:53 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified LinkedIn Social Icon
+05/25/20 04:30:53 - CaseStatus - INFO - test_linkedinSocialIcon Test Passed
+05/25/20 04:30:53 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:53 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:53 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:53 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:53 - FooterPage - INFO - Element with locator: //a[contains(@href,'pinterest')] and locator type: xpath appeared on the web page
+05/25/20 04:30:53 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:53 - FooterPage - DEBUG - After finding element, size is: 39
+05/25/20 04:30:53 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:53 - FooterPage - INFO - The attribute is :: 'https://www.pinterest.com/mattamyhomes/'
+05/25/20 04:30:53 - FooterPage - INFO - URL is: https://www.pinterest.com/mattamyhomes/
+05/25/20 04:30:54 - FooterPage - INFO - URL: https://www.pinterest.com/mattamyhomes/ status code is: 200
+05/25/20 04:30:54 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Pinterest Social Icon
+05/25/20 04:30:54 - CaseStatus - INFO - test_pinterestSocialIcon Test Passed
+05/25/20 04:30:54 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:54 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:54 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:54 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:54 - FooterPage - INFO - Element with locator: Privacy Policy and locator type: link appeared on the web page
+05/25/20 04:30:54 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:55 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:55 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:55 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:55 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:56 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:56 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Privacy Policy Link
+05/25/20 04:30:56 - CaseStatus - INFO - test_privacyPolicyLink Test Passed
+05/25/20 04:30:56 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:56 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:56 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:56 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:56 - FooterPage - INFO - Element with locator: Terms & Conditions and locator type: link appeared on the web page
+05/25/20 04:30:56 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:57 - FooterPage - DEBUG - After finding element, size is: 31
+05/25/20 04:30:57 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:57 - FooterPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+05/25/20 04:30:57 - FooterPage - INFO - URL is: http://devmh-admin.bhitest.com/
+05/25/20 04:30:57 - FooterPage - INFO - URL: http://devmh-admin.bhitest.com/ status code is: 200
+05/25/20 04:30:57 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified TnC Link
+05/25/20 04:30:57 - CaseStatus - INFO - test_termsAndConditionsLink Test Passed
+05/25/20 04:30:57 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:57 - FooterPage - INFO - Element with locator: //a[contains(@href,'facebook')] and locator type: xpath appeared on the web page
+05/25/20 04:30:58 - FooterPage - INFO - Scrolled down to footer
+05/25/20 04:30:58 - FooterPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:30:58 - FooterPage - INFO - Element with locator: //a[contains(@href,'youtube')] and locator type: xpath appeared on the web page
+05/25/20 04:30:58 - FooterPage - DEBUG - Before finding attribute
+05/25/20 04:30:58 - FooterPage - DEBUG - After finding element, size is: 47
+05/25/20 04:30:58 - FooterPage - INFO - Getting attribute value on element :: 
+05/25/20 04:30:58 - FooterPage - INFO - The attribute is :: 'https://www.youtube.com/user/MattamyHomesOnline'
+05/25/20 04:30:58 - FooterPage - INFO - URL is: https://www.youtube.com/user/MattamyHomesOnline
+05/25/20 04:30:59 - FooterPage - INFO - URL: https://www.youtube.com/user/MattamyHomesOnline status code is: 200
+05/25/20 04:30:59 - CaseStatus - INFO -  ### Verification Pass :: Footer_Verified Instagram Social Icon
+05/25/20 04:30:59 - CaseStatus - INFO - test_youtubeSocialIcon Test Passed
+05/25/20 04:30:59 - <module> - INFO - Closing Browser
+05/25/20 04:31:04 - <module> - INFO - Browser Closed
+05/25/20 04:31:04 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 04:31:11 - WebDriverFactory - INFO - Opening Chrome
+05/25/20 04:31:16 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 04:32:01 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 04:32:01 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:09 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 04:32:18 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 04:32:18 - <module> - INFO - Clicked USA as country
+05/25/20 04:32:18 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:19 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:19 - HeaderPage - INFO - Clicked on element with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+05/25/20 04:32:19 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:20 - HeaderPage - INFO - Element with locator: (//h3[starts-with(@class,'uppercase')])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:20 - HeaderPage - INFO - Element is displayed with locator: (//h3[starts-with(@class,'uppercase')])[1] locatorType: xpath
+05/25/20 04:32:20 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:20 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:20 - HeaderPage - INFO - Clicked on element with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+05/25/20 04:32:20 - CaseStatus - INFO -  ### Verification Pass :: Verify that element exist under 'Find Your Dream Home' dropdown executed
+05/25/20 04:32:20 - CaseStatus - INFO - test_FindYourDreamHomeDropdownExist Test Passed
+05/25/20 04:32:20 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:21 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:21 - HeaderPage - INFO - Element is displayed with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+05/25/20 04:32:21 - CaseStatus - INFO -  ### Verification Pass :: Verify 'Find Your Dream Home' executed
+05/25/20 04:32:21 - CaseStatus - INFO - test_FindYourDreamHomeExist Test Passed
+05/25/20 04:32:21 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:21 - HeaderPage - INFO - Element with locator: (//button[text()='USA'])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:21 - HeaderPage - DEBUG - Before finding attribute
+05/25/20 04:32:21 - HeaderPage - DEBUG - After finding element, size is: 101
+05/25/20 04:32:21 - HeaderPage - INFO - Getting attribute value on element :: 
+05/25/20 04:32:21 - HeaderPage - INFO - The attribute is :: 'sc-fzoLag BNtsP font-trade-gothic-20 focus:outline-none focus:shadow-outline
+    text-mattamy-gray'
+05/25/20 04:32:21 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:22 - HeaderPage - INFO - Element with locator: (//button[starts-with(@class,'border')])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:22 - HeaderPage - INFO - Clicked on element with locator: (//button[starts-with(@class,'border')])[1] locatorType: xpath
+05/25/20 04:32:22 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:23 - HeaderPage - INFO - Element with locator: (//button[text()='USA'])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:23 - HeaderPage - DEBUG - Before finding attribute
+05/25/20 04:32:24 - HeaderPage - DEBUG - After finding element, size is: 100
+05/25/20 04:32:24 - HeaderPage - INFO - Getting attribute value on element :: 
+05/25/20 04:32:24 - HeaderPage - INFO - The attribute is :: 'sc-fzoLag BNtsP font-trade-gothic-20 focus:outline-none focus:shadow-outline
+    text-action-blue'
+05/25/20 04:32:24 - HeaderPage - INFO - Toggle is working fine
+05/25/20 04:32:24 - CaseStatus - INFO -  ### Verification Pass :: Country selector test case executed
+05/25/20 04:32:24 - CaseStatus - INFO - test_countryToggleClickable Test Passed
+05/25/20 04:32:24 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:24 - HeaderPage - INFO - Element with locator: (//a[starts-with(@href,'/experience-mattamy')])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:26 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@href,'/experience-mattamy')])[1] locatorType: xpath
+05/25/20 04:32:26 - Util - INFO - Actual Text From Application Web UI --> :: /experience-mattamy
+05/25/20 04:32:26 - Util - INFO - Expected Text From Application Web UI --> :: /experience-mattamy
+05/25/20 04:32:26 - Util - INFO - ### VERIFICATION MATCHED !!!
+05/25/20 04:32:26 - CaseStatus - INFO -  ### Verification Pass :: 'Experience Mattamy' redirection test case executed
+05/25/20 04:32:26 - CaseStatus - INFO - test_experienceMattamyRedirect Test Passed
+05/25/20 04:32:26 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:27 - HeaderPage - INFO - Element with locator: (//a[starts-with(@href,'/express-your-style')])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:29 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@href,'/express-your-style')])[1] locatorType: xpath
+05/25/20 04:32:29 - Util - INFO - Actual Text From Application Web UI --> :: /express-your-style
+05/25/20 04:32:29 - Util - INFO - Expected Text From Application Web UI --> :: /express-your-style
+05/25/20 04:32:29 - Util - INFO - ### VERIFICATION MATCHED !!!
+05/25/20 04:32:29 - CaseStatus - INFO -  ### Verification Pass :: 'Express Your Style' redirection test case executed
+05/25/20 04:32:29 - CaseStatus - INFO - test_expressYourStyleRedirect Test Passed
+05/25/20 04:32:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:32:30 - HeaderPage - INFO - Element with locator: (//a[contains(@href,'/make-it-real')])[1] and locator type: xpath appeared on the web page
+05/25/20 04:32:31 - HeaderPage - INFO - Clicked on element with locator: (//a[contains(@href,'/make-it-real')])[1] locatorType: xpath
+05/25/20 04:32:31 - Util - INFO - Actual Text From Application Web UI --> :: /make-it-real
+05/25/20 04:32:31 - Util - INFO - Expected Text From Application Web UI --> :: /make-it-real
+05/25/20 04:32:31 - Util - INFO - ### VERIFICATION MATCHED !!!
+05/25/20 04:32:31 - CaseStatus - INFO -  ### Verification Pass :: 'Make It real' redirection test case executed
+05/25/20 04:32:31 - CaseStatus - INFO - test_makeItRealRedirect Test Passed
+05/25/20 04:32:31 - <module> - INFO - Closing Browser
+05/25/20 04:32:34 - <module> - INFO - Browser Closed
+05/25/20 04:32:34 - WebDriverFactory - DEBUG - Browser directoryC:\Users\rgarg\PycharmProjects\MattamyHomes\base\../Drivers
+05/25/20 04:32:44 - WebDriverFactory - INFO - Opening Chrome
+05/25/20 04:32:48 - WebDriverFactory - INFO - Maximizing browser window
+05/25/20 04:34:11 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+05/25/20 04:34:11 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+05/25/20 04:34:16 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+05/25/20 04:34:18 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+05/25/20 04:34:18 - <module> - INFO - Clicked USA as country
+05/25/20 04:34:18 - ReadWriteFile - INFO - Deleted sheet: SitemapResult
+05/25/20 04:34:18 - ReadWriteFile - INFO - Created sheet SitemapResult
+05/25/20 04:34:19 - ReadWriteFile - INFO - ##Successfully Traversed File##
+05/25/20 04:34:27 - CaseStatus - INFO -  ### Verification Pass :: Verified all Sitemap Links
+05/25/20 04:34:27 - CaseStatus - INFO - test_sitemap_url Test Passed
+05/25/20 04:34:27 - <module> - INFO - Closing Browser
+05/25/20 04:34:29 - <module> - INFO - Browser Closed
+06/01/20 12:39:15 - WebDriverFactory - INFO - Opening Chrome
+06/01/20 12:39:17 - WebDriverFactory - INFO - Maximizing browser window
+06/01/20 12:39:22 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+06/01/20 12:39:22 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:39:24 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+06/01/20 12:39:24 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+06/01/20 12:39:24 - <module> - INFO - Clicked USA as country
+06/01/20 12:39:24 - ReadWriteFile - INFO - Deleted sheet: SitemapResult
+06/01/20 12:39:24 - ReadWriteFile - INFO - Created sheet SitemapResult
+06/01/20 12:39:26 - ReadWriteFile - INFO - The number of url tags are 5
+06/01/20 12:39:26 - ReadWriteFile - INFO - ##Successfully Traversed File##
+06/01/20 12:39:33 - CaseStatus - INFO -  ### Verification Pass :: Verified all Sitemap Links
+06/01/20 12:39:33 - CaseStatus - INFO - test_sitemap_url Test Passed
+06/01/20 12:39:33 - <module> - INFO - Closing Browser
+06/01/20 12:39:35 - <module> - INFO - Browser Closed
+06/01/20 12:44:19 - WebDriverFactory - INFO - Opening Chrome
+06/01/20 12:44:21 - WebDriverFactory - INFO - Maximizing browser window
+06/01/20 12:44:26 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+06/01/20 12:44:26 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:26 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+06/01/20 12:44:26 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+06/01/20 12:44:26 - <module> - INFO - Clicked USA as country
+06/01/20 12:44:26 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:26 - HeaderPage - INFO - Element with locator: (//a[starts-with(@class,'w-32')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:27 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@class,'w-32')])[1] locatorType: xpath
+06/01/20 12:44:27 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:28 - HeaderPage - INFO - Element with locator: (//a[starts-with(@class,'w-32')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:28 - HeaderPage - DEBUG - Before finding attribute
+06/01/20 12:44:28 - HeaderPage - DEBUG - After finding element, size is: 31
+06/01/20 12:44:28 - HeaderPage - INFO - Getting attribute value on element :: 
+06/01/20 12:44:28 - HeaderPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+06/01/20 12:44:28 - HeaderPage - INFO - URL alias is /
+06/01/20 12:44:28 - Util - INFO - Actual Text From Application Web UI --> :: /
+06/01/20 12:44:28 - Util - INFO - Expected Text From Application Web UI --> :: /
+06/01/20 12:44:28 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:44:28 - CaseStatus - INFO -  ### Verification Pass :: logo redirection test case executed
+06/01/20 12:44:28 - CaseStatus - INFO - test_logoRedirect Test Passed
+06/01/20 12:44:28 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:28 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:28 - HeaderPage - INFO - Clicked on element with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+06/01/20 12:44:28 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//h3[starts-with(@class,'uppercase')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:29 - HeaderPage - INFO - Element is displayed with locator: (//h3[starts-with(@class,'uppercase')])[1] locatorType: xpath
+06/01/20 12:44:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:29 - HeaderPage - INFO - Clicked on element with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+06/01/20 12:44:29 - CaseStatus - INFO -  ### Verification Pass :: Verify that element exist under 'Find Your Dream Home' dropdown executed
+06/01/20 12:44:29 - CaseStatus - INFO - test_FindYourDreamHomeDropdownExist Test Passed
+06/01/20 12:44:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:29 - HeaderPage - INFO - Element is displayed with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+06/01/20 12:44:29 - CaseStatus - INFO -  ### Verification Pass :: Verify 'Find Your Dream Home' executed
+06/01/20 12:44:29 - CaseStatus - INFO - test_FindYourDreamHomeExist Test Passed
+06/01/20 12:44:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//button[text()='USA'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:29 - HeaderPage - DEBUG - Before finding attribute
+06/01/20 12:44:29 - HeaderPage - DEBUG - After finding element, size is: 101
+06/01/20 12:44:29 - HeaderPage - INFO - Getting attribute value on element :: 
+06/01/20 12:44:29 - HeaderPage - INFO - The attribute is :: 'sc-fzoLag BNtsP font-trade-gothic-20 focus:outline-none focus:shadow-outline
+    text-mattamy-gray'
+06/01/20 12:44:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//button[starts-with(@class,'border')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:29 - HeaderPage - INFO - Clicked on element with locator: (//button[starts-with(@class,'border')])[1] locatorType: xpath
+06/01/20 12:44:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//button[text()='USA'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:29 - HeaderPage - DEBUG - Before finding attribute
+06/01/20 12:44:29 - HeaderPage - DEBUG - After finding element, size is: 100
+06/01/20 12:44:29 - HeaderPage - INFO - Getting attribute value on element :: 
+06/01/20 12:44:29 - HeaderPage - INFO - The attribute is :: 'sc-fzoLag BNtsP font-trade-gothic-20 focus:outline-none focus:shadow-outline
+    text-action-blue'
+06/01/20 12:44:29 - HeaderPage - INFO - Toggle is working fine
+06/01/20 12:44:29 - CaseStatus - INFO -  ### Verification Pass :: Country selector test case executed
+06/01/20 12:44:29 - CaseStatus - INFO - test_countryToggleClickable Test Passed
+06/01/20 12:44:29 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:29 - HeaderPage - INFO - Element with locator: (//a[starts-with(@href,'/experience-mattamy')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:30 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@href,'/experience-mattamy')])[1] locatorType: xpath
+06/01/20 12:44:30 - Util - INFO - Actual Text From Application Web UI --> :: /experience-mattamy
+06/01/20 12:44:30 - Util - INFO - Expected Text From Application Web UI --> :: /experience-mattamy
+06/01/20 12:44:30 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:44:30 - CaseStatus - INFO -  ### Verification Pass :: 'Experience Mattamy' redirection test case executed
+06/01/20 12:44:30 - CaseStatus - INFO - test_experienceMattamyRedirect Test Passed
+06/01/20 12:44:30 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:31 - HeaderPage - INFO - Element with locator: (//a[starts-with(@href,'/express-your-style')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:31 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@href,'/express-your-style')])[1] locatorType: xpath
+06/01/20 12:44:31 - Util - INFO - Actual Text From Application Web UI --> :: /express-your-style
+06/01/20 12:44:31 - Util - INFO - Expected Text From Application Web UI --> :: /express-your-style
+06/01/20 12:44:31 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:44:31 - CaseStatus - INFO -  ### Verification Pass :: 'Express Your Style' redirection test case executed
+06/01/20 12:44:31 - CaseStatus - INFO - test_expressYourStyleRedirect Test Passed
+06/01/20 12:44:31 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:44:32 - HeaderPage - INFO - Element with locator: (//a[contains(@href,'/make-it-real')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:44:33 - HeaderPage - INFO - Clicked on element with locator: (//a[contains(@href,'/make-it-real')])[1] locatorType: xpath
+06/01/20 12:44:33 - Util - INFO - Actual Text From Application Web UI --> :: /make-it-real
+06/01/20 12:44:33 - Util - INFO - Expected Text From Application Web UI --> :: /make-it-real
+06/01/20 12:44:33 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:44:33 - CaseStatus - INFO -  ### Verification Pass :: 'Make It real' redirection test case executed
+06/01/20 12:44:33 - CaseStatus - INFO - test_makeItRealRedirect Test Passed
+06/01/20 12:44:33 - <module> - INFO - Closing Browser
+06/01/20 12:44:35 - <module> - INFO - Browser Closed
+06/01/20 12:45:49 - WebDriverFactory - INFO - Opening Chrome
+06/01/20 12:45:51 - WebDriverFactory - INFO - Maximizing browser window
+06/01/20 12:45:58 - WebDriverFactory - INFO - Opened Url http://devmh-admin.bhitest.com/
+06/01/20 12:45:58 - SeleniumDriver - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:45:58 - SeleniumDriver - INFO - Element with locator: (//button[text()='USA'])[3] and locator type: xpath appeared on the web page
+06/01/20 12:45:58 - SeleniumDriver - INFO - Clicked on element with locator: (//button[text()='USA'])[3] locatorType: xpath
+06/01/20 12:45:58 - <module> - INFO - Clicked USA as country
+06/01/20 12:45:58 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:45:59 - HeaderPage - INFO - Element with locator: (//a[starts-with(@class,'w-32')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:45:59 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@class,'w-32')])[1] locatorType: xpath
+06/01/20 12:45:59 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:00 - HeaderPage - INFO - Element with locator: (//a[starts-with(@class,'w-32')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:00 - HeaderPage - DEBUG - Before finding attribute
+06/01/20 12:46:00 - HeaderPage - DEBUG - After finding element, size is: 31
+06/01/20 12:46:00 - HeaderPage - INFO - Getting attribute value on element :: 
+06/01/20 12:46:00 - HeaderPage - INFO - The attribute is :: 'http://devmh-admin.bhitest.com/'
+06/01/20 12:46:00 - HeaderPage - INFO - URL alias is /
+06/01/20 12:46:00 - Util - INFO - Actual Text From Application Web UI --> :: /
+06/01/20 12:46:00 - Util - INFO - Expected Text From Application Web UI --> :: /
+06/01/20 12:46:00 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:46:00 - CaseStatus - INFO -  ### Verification Pass :: logo redirection test case executed
+06/01/20 12:46:00 - CaseStatus - INFO - test_logoRedirect Test Passed
+06/01/20 12:46:00 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:00 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:00 - HeaderPage - INFO - Clicked on element with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+06/01/20 12:46:00 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:01 - HeaderPage - INFO - Element with locator: (//h3[starts-with(@class,'uppercase')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:01 - HeaderPage - INFO - Element is displayed with locator: (//h3[starts-with(@class,'uppercase')])[1] locatorType: xpath
+06/01/20 12:46:01 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:01 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:01 - HeaderPage - INFO - Clicked on element with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+06/01/20 12:46:01 - CaseStatus - INFO -  ### Verification Pass :: Verify that element exist under 'Find Your Dream Home' dropdown executed
+06/01/20 12:46:01 - CaseStatus - INFO - test_FindYourDreamHomeDropdownExist Test Passed
+06/01/20 12:46:01 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:02 - HeaderPage - INFO - Element with locator: (//button/p[text()='Find Your Dream Home'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:02 - HeaderPage - INFO - Element is displayed with locator: (//button/p[text()='Find Your Dream Home'])[1] locatorType: xpath
+06/01/20 12:46:02 - CaseStatus - INFO -  ### Verification Pass :: Verify 'Find Your Dream Home' executed
+06/01/20 12:46:02 - CaseStatus - INFO - test_FindYourDreamHomeExist Test Passed
+06/01/20 12:46:02 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:02 - HeaderPage - INFO - Element with locator: (//button[text()='USA'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:02 - HeaderPage - DEBUG - Before finding attribute
+06/01/20 12:46:02 - HeaderPage - DEBUG - After finding element, size is: 101
+06/01/20 12:46:02 - HeaderPage - INFO - Getting attribute value on element :: 
+06/01/20 12:46:02 - HeaderPage - INFO - The attribute is :: 'sc-fzoLag BNtsP font-trade-gothic-20 focus:outline-none focus:shadow-outline
+    text-mattamy-gray'
+06/01/20 12:46:02 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:02 - HeaderPage - INFO - Element with locator: (//button[starts-with(@class,'border')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:02 - HeaderPage - INFO - Clicked on element with locator: (//button[starts-with(@class,'border')])[1] locatorType: xpath
+06/01/20 12:46:02 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:02 - HeaderPage - INFO - Element with locator: (//button[text()='USA'])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:02 - HeaderPage - DEBUG - Before finding attribute
+06/01/20 12:46:02 - HeaderPage - DEBUG - After finding element, size is: 100
+06/01/20 12:46:02 - HeaderPage - INFO - Getting attribute value on element :: 
+06/01/20 12:46:02 - HeaderPage - INFO - The attribute is :: 'sc-fzoLag BNtsP font-trade-gothic-20 focus:outline-none focus:shadow-outline
+    text-action-blue'
+06/01/20 12:46:02 - HeaderPage - INFO - Toggle is working fine
+06/01/20 12:46:02 - CaseStatus - INFO -  ### Verification Pass :: Country selector test case executed
+06/01/20 12:46:02 - CaseStatus - INFO - test_countryToggleClickable Test Passed
+06/01/20 12:46:02 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:02 - HeaderPage - INFO - Element with locator: (//a[starts-with(@href,'/experience-mattamy')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:03 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@href,'/experience-mattamy')])[1] locatorType: xpath
+06/01/20 12:46:03 - Util - INFO - Actual Text From Application Web UI --> :: /experience-mattamy
+06/01/20 12:46:03 - Util - INFO - Expected Text From Application Web UI --> :: /experience-mattamy
+06/01/20 12:46:03 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:46:03 - CaseStatus - INFO -  ### Verification Pass :: 'Experience Mattamy' redirection test case executed
+06/01/20 12:46:03 - CaseStatus - INFO - test_experienceMattamyRedirect Test Passed
+06/01/20 12:46:03 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:03 - HeaderPage - INFO - Element with locator: (//a[starts-with(@href,'/express-your-style')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:04 - HeaderPage - INFO - Clicked on element with locator: (//a[starts-with(@href,'/express-your-style')])[1] locatorType: xpath
+06/01/20 12:46:04 - Util - INFO - Actual Text From Application Web UI --> :: /express-your-style
+06/01/20 12:46:04 - Util - INFO - Expected Text From Application Web UI --> :: /express-your-style
+06/01/20 12:46:04 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:46:04 - CaseStatus - INFO -  ### Verification Pass :: 'Express Your Style' redirection test case executed
+06/01/20 12:46:04 - CaseStatus - INFO - test_expressYourStyleRedirect Test Passed
+06/01/20 12:46:04 - HeaderPage - INFO - Waiting for maximum :: 10 :: seconds for element to appear
+06/01/20 12:46:04 - HeaderPage - INFO - Element with locator: (//a[contains(@href,'/make-it-real')])[1] and locator type: xpath appeared on the web page
+06/01/20 12:46:05 - HeaderPage - INFO - Clicked on element with locator: (//a[contains(@href,'/make-it-real')])[1] locatorType: xpath
+06/01/20 12:46:05 - Util - INFO - Actual Text From Application Web UI --> :: /make-it-real
+06/01/20 12:46:05 - Util - INFO - Expected Text From Application Web UI --> :: /make-it-real
+06/01/20 12:46:05 - Util - INFO - ### VERIFICATION MATCHED !!!
+06/01/20 12:46:05 - CaseStatus - INFO -  ### Verification Pass :: 'Make It real' redirection test case executed
+06/01/20 12:46:05 - CaseStatus - INFO - test_makeItRealRedirect Test Passed
+06/01/20 12:46:05 - <module> - INFO - Closing Browser
+06/01/20 12:46:07 - <module> - INFO - Browser Closed
