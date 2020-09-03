@@ -1,6 +1,5 @@
 import time
-
-from utilities.custom_logger import customLogger
+import utilities.custom_logger as cl
 import logging
 from base.basepage import BasePage
 from base.webdriverfactory import WebDriverFactory
@@ -8,24 +7,24 @@ from base.webdriverfactory import WebDriverFactory
 
 class HeaderPage(BasePage):
 
+    log = cl.customLogger(logging.DEBUG)
+
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-        # self.urlList =[]
-        # self.elementList = []
 
     # Locators
-    _logo = "//a[starts-with(@class,'w-32')]"
+    _logo = "(//a[starts-with(@class,'w-32')])[1]"
     _find_your_dream_home = "(//button/p[text()='Find Your Dream Home'])[1]"
     _express_your_style = "(//a[starts-with(@href,'/express-your-style')])[1]"
-    _make_it_real = "(//a[starts-with(@href,'/make-it-real')])[1]"
+    _make_it_real = "(//a[contains(@href,'/make-it-real')])[1]"
     _experience_mattamy = "(//a[starts-with(@href,'/experience-mattamy')])[1]"
     _country_selector = "(//button[starts-with(@class,'border')])[1]"
     _usa_text = "(//button[text()='USA'])[1]"
     _header_metro = "(//h3[starts-with(@class,'uppercase')])[1]"
 
     def clickLogo(self):
-        self.elementClick(self._logo, "xpath")
+        self.elementClick(locator=self._logo, locatorType="xpath")
 
     def clickFindYourDreamHome(self):
         self.elementClick(self._find_your_dream_home, "xpath")
@@ -46,6 +45,7 @@ class HeaderPage(BasePage):
         self.clickLogo()
         attribute = self.getAttribute(locator=self._logo, locatorType="xpath", attribute="href")
         urlAlias = attribute.partition(".com")[2]
+        self.log.info("URL alias is "+urlAlias)
         return self.verifyText(urlAlias, "/")
 
     def verifyFYDHExist(self):
@@ -53,26 +53,21 @@ class HeaderPage(BasePage):
 
     def verifyFYDHElement(self):
         self.clickFindYourDreamHome()
-        time.sleep(3)
         return self.isElementDisplayed(self._header_metro, "xpath")
 
     def verifyExpressYourStyleRedirect(self):
         self.clickExpressYourStyle()
-        url = self.getUrl()
-        urlAlias = url.split(".com")[1]
-        print("Alias is "+urlAlias)
+        urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/express-your-style")
 
     def verifyMakeItRealRedirect(self):
         self.clickMakeItReal()
-        url = self.getUrl()
-        urlAlias = url.split(".com")[1]
+        urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/make-it-real")
 
     def verifyExperienceMattamyRedirect(self):
         self.clickExperienceMattamy()
-        url = self.getUrl()
-        urlAlias = url.split(".com")[1]
+        urlAlias = self.findUrlAlias()
         return self.verifyText(urlAlias, "/experience-mattamy")
 
     def verifyToggleClick(self):

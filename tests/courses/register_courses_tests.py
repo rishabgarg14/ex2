@@ -3,7 +3,7 @@ import unittest
 from selenium import webdriver
 from pages.courses.register_courses_page import RegisterCoursesPage
 import pytest
-from utilities.teststatus import TestStatus
+from utilities.casestatus import TestStatus
 
 @pytest.mark.usefixtures("setUp", "oneTimeSetUp")
 class RegisterCoursesTests(unittest.TestCase):

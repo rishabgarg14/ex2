@@ -1,28 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="" />
+    <list default="true" id="7064a017-a3c6-4c78-be63-393aab1cbb4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/geckodriver-v0.26.0-win32.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/geckodriver-v0.26.0-win64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VjmgEEoqgAkv0Oy57qRulCaEDj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\Data" />
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\reportpublish" />
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests" />
+      <recent name="C:\Users\rgarg\PycharmProjects\MattamyHomes\tests\home" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,20 +61,158 @@
       <option name="presentableId" value="Default" />
       <updated>1587834975981</updated>
     </task>
+    <task id="LOCAL-00001" summary="Entire Mattamy Project">
+      <created>1587883667103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587883667104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Entire Mattamy Project">
+      <created>1588006949776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588006949776</updated>
+    </task>
+    <task id="LOCAL-00003" summary="findUrlAlias in Basepage">
+      <created>1588067100574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588067100574</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Footer Social Icon Tests">
+      <created>1588428473116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428473116</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added url parameter to verify url">
+      <created>1588776261639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588776261639</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change in Instagram Test Case">
+      <created>1589258487775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589258487775</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change in FF Webdriver webdriverfactory.py">
+      <created>1589468999238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589468999238</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Change in header_page.py">
+      <created>1589597757659</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589597757659</updated>
+    </task>
+    <task id="LOCAL-00009" summary="element click in selenium_driver.py.py">
+      <created>1589606380419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589606380419</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changes abs to relative path&gt;driver and log">
+      <created>1589608849095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589608849095</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Sitemap Test Case">
+      <created>1590391404153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590391404154</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Data folder">
+      <created>1590391750128</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590391750128</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Sitemap Test Case">
+      <created>1590391885573</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590391885573</updated>
+    </task>
+    <task id="LOCAL-00014" summary="removed print statements">
+      <created>1590405673500</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590405673500</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entire Mattamy Project" />
+    <MESSAGE value="findUrlAlias in Basepage" />
+    <MESSAGE value="Footer Social Icon Tests" />
+    <MESSAGE value="Added url parameter to verify url" />
+    <MESSAGE value="Change in Instagram Test Case" />
+    <MESSAGE value="Change in FF Webdriver webdriverfactory.py" />
+    <MESSAGE value="Change in header_page.py" />
+    <MESSAGE value="element click in selenium_driver.py.py" />
+    <MESSAGE value="changes abs to relative path&gt;driver and log" />
+    <MESSAGE value="Add Data folder" />
+    <MESSAGE value="Sitemap Test Case" />
+    <MESSAGE value="removed print statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed print statements" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590315448261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590315448261" />
+    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587899515970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587899515970" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589254475124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1589254475124" />
+    <state x="430" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590384446071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1590384446071" />
+    <state x="53" y="0" key="CommitChangelistDialog2" timestamp="1590405664223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590405664223" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587836334502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587836334502" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1587835272364">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1590732607836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587835272364" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587836357822">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590732607836" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590405683548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587836357822" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590405683548" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589464813504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589464813504" />
   </component>
 </project>

@@ -1,13 +1,17 @@
 import logging
 import inspect
+import os
+
 
 def customLogger(loglevel=logging.DEBUG):
-
     loggerName = inspect.stack()[1][3]
     logger = logging.getLogger(loggerName)
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(loglevel)
 
-    fileHandler = logging.FileHandler("C:\\Users\\rgarg\\PycharmProjects\\MattamyHomes\\automation.log", mode='a')
+    currentDirectory = os.path.dirname(__file__)
+    logPath = "../automation.log"
+    logFile = os.path.join(currentDirectory, logPath)
+    fileHandler = logging.FileHandler(logFile, mode='a')
     # fileHandler = logging.FileHandler("{0}.log".format(loggerName), mode='a')
     fileHandler.setLevel(loglevel)
 

@@ -1,11 +1,9 @@
 import pytest
-from selenium import webdriver
-import os
 import utilities.custom_logger as cl
 import logging
 from base.webdriverfactory import WebDriverFactory
-from pages.home.oos_login_page import LoginPage
 from base.selenium_driver import SeleniumDriver
+from Data.config import Config
 
 log = cl.customLogger(logging.DEBUG)
 
@@ -17,17 +15,13 @@ def setUp():
 
 @pytest.yield_fixture(scope="class")
 def oneTimeSetUp(request, browser):
-
-    wdf = WebDriverFactory(browser)
+    conf = Config()
+    url = conf.base_url
+    wdf = WebDriverFactory(browser, url)
     driver = wdf.getWebDriverInstance()
     sd = SeleniumDriver(driver)
     sd.elementClick("(//button[text()='USA'])[3]", "xpath")
     log.info("Clicked USA as country")
-
-    """
-    lp = LoginPage(driver)
-    lp.login(email="test@email.com", password="abcabc")
-    """
 
     if request.cls is not None:
         request.cls.driver = driver
